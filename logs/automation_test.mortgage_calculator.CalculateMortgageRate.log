@@ -1,0 +1,72 @@
+[2023-08-18T21:28:44,236][DEBUG][TestNG-test=mortgage_calculator-1] Using Log4J2 as the default logging framework
+[2023-08-18T21:28:44,984][DEBUG][TestNG-test=mortgage_calculator-1] -Dio.netty.leakDetection.level: simple
+[2023-08-18T21:28:44,985][DEBUG][TestNG-test=mortgage_calculator-1] -Dio.netty.leakDetection.targetRecords: 4
+[2023-08-18T21:28:45,024][DEBUG][TestNG-test=mortgage_calculator-1] Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@79cac7
+[2023-08-18T21:28:45,431][DEBUG][TestNG-test=mortgage_calculator-1] -Dio.netty.noUnsafe: false
+[2023-08-18T21:28:45,432][DEBUG][TestNG-test=mortgage_calculator-1] Java version: 12
+[2023-08-18T21:28:45,472][DEBUG][TestNG-test=mortgage_calculator-1] sun.misc.Unsafe.theUnsafe: available
+[2023-08-18T21:28:45,487][DEBUG][TestNG-test=mortgage_calculator-1] sun.misc.Unsafe.copyMemory: available
+[2023-08-18T21:28:45,502][DEBUG][TestNG-test=mortgage_calculator-1] sun.misc.Unsafe.storeFence: available
+[2023-08-18T21:28:45,514][DEBUG][TestNG-test=mortgage_calculator-1] java.nio.Buffer.address: available
+[2023-08-18T21:28:45,522][DEBUG][TestNG-test=mortgage_calculator-1] direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+[2023-08-18T21:28:45,530][DEBUG][TestNG-test=mortgage_calculator-1] java.nio.Bits.unaligned: available, true
+[2023-08-18T21:28:45,539][DEBUG][TestNG-test=mortgage_calculator-1] jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @36546a22
+[2023-08-18T21:28:45,548][DEBUG][TestNG-test=mortgage_calculator-1] java.nio.DirectByteBuffer.<init>(long, int): unavailable
+[2023-08-18T21:28:45,548][DEBUG][TestNG-test=mortgage_calculator-1] sun.misc.Unsafe: available
+[2023-08-18T21:28:45,552][DEBUG][TestNG-test=mortgage_calculator-1] maxDirectMemory: 4273995776 bytes (maybe)
+[2023-08-18T21:28:45,553][DEBUG][TestNG-test=mortgage_calculator-1] -Dio.netty.tmpdir: C:\Users\sminhaaj\AppData\Local\Temp (java.io.tmpdir)
+[2023-08-18T21:28:45,554][DEBUG][TestNG-test=mortgage_calculator-1] -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[2023-08-18T21:28:45,555][DEBUG][TestNG-test=mortgage_calculator-1] Platform: Windows
+[2023-08-18T21:28:45,569][DEBUG][TestNG-test=mortgage_calculator-1] -Dio.netty.maxDirectMemory: -1 bytes
+[2023-08-18T21:28:45,570][DEBUG][TestNG-test=mortgage_calculator-1] -Dio.netty.uninitializedArrayAllocationThreshold: -1
+[2023-08-18T21:28:45,584][DEBUG][TestNG-test=mortgage_calculator-1] java.nio.ByteBuffer.cleaner(): available
+[2023-08-18T21:28:45,585][DEBUG][TestNG-test=mortgage_calculator-1] -Dio.netty.noPreferDirect: false
+[2023-08-18T21:28:45,808][DEBUG][TestNG-test=mortgage_calculator-1] org.jctools-core.MpscChunkedArrayQueue: available
+[2023-08-18T21:28:46,247][DEBUG][TestNG-test=mortgage_calculator-1] -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+[2023-08-18T21:28:46,248][DEBUG][TestNG-test=mortgage_calculator-1] -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+[2023-08-18T21:28:46,515][DEBUG][TestNG-test=mortgage_calculator-1] Default protocols (JDK): [TLSv1.3, TLSv1.2, TLSv1.1, TLSv1] 
+[2023-08-18T21:28:46,516][DEBUG][TestNG-test=mortgage_calculator-1] Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+[2023-08-18T21:28:46,817][DEBUG][TestNG-test=mortgage_calculator-1] -Dio.netty.globalEventExecutor.quietPeriodSeconds: 1
+[2023-08-18T21:28:47,104][DEBUG][TestNG-test=mortgage_calculator-1] -Dio.netty.eventLoopThreads: 16
+[2023-08-18T21:28:47,295][DEBUG][TestNG-test=mortgage_calculator-1] -Dio.netty.noKeySetOptimization: false
+[2023-08-18T21:28:47,296][DEBUG][TestNG-test=mortgage_calculator-1] -Dio.netty.selectorAutoRebuildThreshold: 512
+[2023-08-18T21:28:47,719][DEBUG][TestNG-test=mortgage_calculator-1] -Dio.netty.allocator.numHeapArenas: 16
+[2023-08-18T21:28:47,719][DEBUG][TestNG-test=mortgage_calculator-1] -Dio.netty.allocator.numDirectArenas: 16
+[2023-08-18T21:28:47,720][DEBUG][TestNG-test=mortgage_calculator-1] -Dio.netty.allocator.pageSize: 8192
+[2023-08-18T21:28:47,720][DEBUG][TestNG-test=mortgage_calculator-1] -Dio.netty.allocator.maxOrder: 9
+[2023-08-18T21:28:47,721][DEBUG][TestNG-test=mortgage_calculator-1] -Dio.netty.allocator.chunkSize: 4194304
+[2023-08-18T21:28:47,722][DEBUG][TestNG-test=mortgage_calculator-1] -Dio.netty.allocator.smallCacheSize: 256
+[2023-08-18T21:28:47,722][DEBUG][TestNG-test=mortgage_calculator-1] -Dio.netty.allocator.normalCacheSize: 64
+[2023-08-18T21:28:47,723][DEBUG][TestNG-test=mortgage_calculator-1] -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[2023-08-18T21:28:47,724][DEBUG][TestNG-test=mortgage_calculator-1] -Dio.netty.allocator.cacheTrimInterval: 8192
+[2023-08-18T21:28:47,724][DEBUG][TestNG-test=mortgage_calculator-1] -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+[2023-08-18T21:28:47,725][DEBUG][TestNG-test=mortgage_calculator-1] -Dio.netty.allocator.useCacheForAllThreads: false
+[2023-08-18T21:28:47,726][DEBUG][TestNG-test=mortgage_calculator-1] -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+[2023-08-18T21:28:47,881][DEBUG][TestNG-test=mortgage_calculator-1] -Dio.netty.allocator.type: pooled
+[2023-08-18T21:28:47,882][DEBUG][TestNG-test=mortgage_calculator-1] -Dio.netty.threadLocalDirectBufferSize: 0
+[2023-08-18T21:28:47,882][DEBUG][TestNG-test=mortgage_calculator-1] -Dio.netty.maxThreadLocalCharBufferSize: 16384
+[2023-08-18T21:28:50,835][DEBUG][Forwarding newSession on session null to remote] -Dio.netty.processId: 36600 (auto-detected)
+[2023-08-18T21:28:50,850][DEBUG][Forwarding newSession on session null to remote] -Djava.net.preferIPv4Stack: false
+[2023-08-18T21:28:50,851][DEBUG][Forwarding newSession on session null to remote] -Djava.net.preferIPv6Addresses: false
+[2023-08-18T21:28:51,007][DEBUG][Forwarding newSession on session null to remote] Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+[2023-08-18T21:28:51,027][DEBUG][Forwarding newSession on session null to remote] Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+[2023-08-18T21:28:51,049][DEBUG][Forwarding newSession on session null to remote] -Dio.netty.machineId: 00:50:56:ff:fe:c0:00:01 (auto-detected)
+[2023-08-18T21:29:53,684][INFO ][TestNG-test=mortgage_calculator-1] -----Test: automation_test.mortgage_calculator.CalculateMortgageRate---------
+[2023-08-18T21:29:53,687][DEBUG][TestNG-test=mortgage_calculator-1] Opening the URL: https://www.mortgagecalculator.org/
+[2023-08-18T21:30:30,099][DEBUG][TestNG-test=mortgage_calculator-1] Typing Home Value: 300000
+[2023-08-18T21:30:30,306][DEBUG][TestNG-test=mortgage_calculator-1] clicking the $ radio button
+[2023-08-18T21:30:30,401][DEBUG][TestNG-test=mortgage_calculator-1] Typing DownPayment Value: 60000
+[2023-08-18T21:30:33,806][DEBUG][TestNG-test=mortgage_calculator-1] Typing Loan amount Value: 240000
+[2023-08-18T21:30:33,996][DEBUG][TestNG-test=mortgage_calculator-1] Typing Interest Rate Value: 3
+[2023-08-18T21:30:34,159][DEBUG][TestNG-test=mortgage_calculator-1] Typing Loan Term years: 30
+[2023-08-18T21:30:34,314][DEBUG][TestNG-test=mortgage_calculator-1] Select the start date month: Sep
+[2023-08-18T21:30:34,563][DEBUG][TestNG-test=mortgage_calculator-1] Typing Loan start year: 2023
+[2023-08-18T21:30:34,719][DEBUG][TestNG-test=mortgage_calculator-1] Typing the property tax: 5000
+[2023-08-18T21:30:34,908][DEBUG][TestNG-test=mortgage_calculator-1] Typing the PMI: 0.5
+[2023-08-18T21:30:35,114][DEBUG][TestNG-test=mortgage_calculator-1] Typing the Home Owner Insurance: 1000
+[2023-08-18T21:30:35,272][DEBUG][TestNG-test=mortgage_calculator-1] Typing the Monthly HOA: 100
+[2023-08-18T21:30:35,425][DEBUG][TestNG-test=mortgage_calculator-1] Select the Loan type
+[2023-08-18T21:30:35,618][DEBUG][TestNG-test=mortgage_calculator-1] Select the Buy or Refi
+[2023-08-18T21:30:35,768][DEBUG][TestNG-test=mortgage_calculator-1] clicking the Calculate button
+[2023-08-18T21:30:36,969][DEBUG][TestNG-test=mortgage_calculator-1] Validating total Monthly Payment: 1,611.85
+[2023-08-18T21:30:38,942][INFO ][TestNG-test=mortgage_calculator-1] -----Test End: automation_test.mortgage_calculator.CalculateMortgageRate---------
