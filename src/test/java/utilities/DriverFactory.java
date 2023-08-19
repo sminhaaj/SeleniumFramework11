@@ -15,18 +15,26 @@ public class DriverFactory {
     public static DriverFactory getInstance(){
         return instance;
     }
-
+/*
     ThreadLocal<WebDriver> driver = ThreadLocal.withInitial(() -> {
         WebDriverManager.chromedriver().setup();
         return new ChromeDriver();
     });
+*/
+    private static ThreadLocal driver = new ThreadLocal();
+
+    public static  void setDriver() {
+        WebDriverManager.chromedriver().setup();
+        driver.set(new ChromeDriver());
+    }
 
     public WebDriver getDriver(){
-        return driver.get();
+        return (WebDriver) driver.get();
     }
 
     public void removeDriver(){
-        driver.get().quit();
+        getDriver().quit();
+        //driver.get().quit();
         driver.remove();
     }
 }
