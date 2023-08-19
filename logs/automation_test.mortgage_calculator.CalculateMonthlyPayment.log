@@ -1,4 +1,9 @@
-[2023-08-18T21:28:56,324][DEBUG][TestNG-test=mortgage_calculator-2] -Dio.netty.initialSeedUniquifier: 0x77613d173586558a
-[2023-08-18T21:29:53,687][INFO ][TestNG-test=mortgage_calculator-2] -----Test: automation_test.mortgage_calculator.CalculateMonthlyPayment---------
-[2023-08-18T21:29:53,688][DEBUG][TestNG-test=mortgage_calculator-2] Opening the URL: https://www.mortgagecalculator.org/
-[2023-08-18T21:30:38,782][INFO ][TestNG-test=mortgage_calculator-2] -----Test End: automation_test.mortgage_calculator.CalculateMonthlyPayment---------
+[2023-08-19T08:52:06,120][DEBUG][Forwarding newSession on session null to remote] -Dio.netty.processId: 38084 (auto-detected)
+[2023-08-19T08:52:06,151][DEBUG][Forwarding newSession on session null to remote] -Djava.net.preferIPv4Stack: false
+[2023-08-19T08:52:06,151][DEBUG][Forwarding newSession on session null to remote] -Djava.net.preferIPv6Addresses: false
+[2023-08-19T08:52:06,304][DEBUG][Forwarding newSession on session null to remote] Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+[2023-08-19T08:52:06,317][DEBUG][Forwarding newSession on session null to remote] Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+[2023-08-19T08:52:06,330][DEBUG][Forwarding newSession on session null to remote] -Dio.netty.machineId: 00:50:56:ff:fe:c0:00:01 (auto-detected)
+[2023-08-19T08:52:15,528][INFO ][TestNG-test=mortgage_calculator-2] -----Test: automation_test.mortgage_calculator.CalculateMonthlyPayment---------
+[2023-08-19T08:52:15,529][DEBUG][TestNG-test=mortgage_calculator-2] Opening the URL: https://www.mortgagecalculator.org/
+[2023-08-19T08:52:26,224][INFO ][TestNG-test=mortgage_calculator-2] -----Test End: automation_test.mortgage_calculator.CalculateMonthlyPayment---------
